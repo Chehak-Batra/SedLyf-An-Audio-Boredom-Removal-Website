@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SedLyf - Feel it - Not!</title>
+    <link rel="stylesheet" href="/start.css">
+    <link rel="stylesheet" href="/responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Balthazar&family=Playfair+Display:wght@500&family=Source+Serif+Pro:wght@200&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css "> -->
+    <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
+    
+    <!-- changes title of poem changed, end of poem speech change -->
+    
+</head>
+<body>
+
+    <div class="loader">
+        <img src="/images/loading-load.gif" alt="">
+    </div>
+
+    <div class="sight">
+       <div><h1><span id="title">"Press spacebar to play audio.<br>Move mouse to pause audio<br>Left/Right key to change poem<br>Escape key to exit"</span> </h1> <br></div> 
+       <div class="lyrics">
+       </div>
+    </div>
+
+    <nav>
+        <img src="/images/logo more.png" alt="">
+        <div> <img id="blind" src="/images/walking-stick.png" width="5" height="5"> &nbsp; Press Spacebar to enable Sightless Mode </div>
+        
+    </nav>
+
+    <aside>
+        <div><li><a href="#home">Home</a></li></div>
+        <div><li><a href="#suggest">Suggestions</a></li></div>
+        <div><li><a href="/form.html" target="_blank">Feedback</a></li></div>
+    </aside>
+
+    <section class="main">
+        <div id="home"> 
+            <div class="first">
+                <div class="hello">
+                    <h1 style="font-size: 40px; color: rgb(182, 26, 26); font-family: 'Playfair Display', serif;"> SEDLYF : Feel It - Not! </h1> <br>
+                    <p style="font-size: 24px; font-family: 'Balthazar', serif;">This platform is a one step solution to eliminate boredom from your lives. <br><br><em style="font-size: 25px;"> Wondering how can that be done? </em><br><br> Well, the answer is by providing you creative suggestions of things you can do in your free time. You can get random ideas and can also filter out ideas based on your preferences of type of activity, other parameters. </p>
+                </div>
+                <div class="meme"><img src="" alt=""></div>
+                <!-- <div class="imgg"><img src="/boredpic.png" alt=""></div> -->
+            </div>
+            <div class="second">
+                <img src="/images/boy.png" alt="">
+                <div class="text">
+                    <img src="/callout.svg" alt="" >
+                    <div class="centered">Let's keep scrolling to know some interesting things we can do in our free time!</div>
+                 </div>
+            </div>
+        </div>
+
+        <div id="suggest">
+            <h1> Get your interesting suggestions here </h1>
+             <div class="random">
+                 <h3>Random: </h3>
+                 <div>
+                    <h2>Lorem ipsum dolor sit, amet consectetur adipisicing.</h2><br>
+                    <span>Type of Activity:  </span><span id="act"></span><span> | No. of Participants:</span><span id="act2"></span>
+                 </div>
+                 <button>Naahhhh <br> Give new suggestion </button>
+             </div>
+
+             <div class="satisfy">
+                 <h4>Still Not Satisfied? Want Customized Suggestions? Go ahead, Tell us your preferences</h4>
+             </div>
+
+             <div class="type">
+                <h3>On the Basis of <br> Type of Activity <br> <br>
+                    <form action="" style="font-size: 17px;">
+
+                        <input type="radio" id="education" name="type" value="education" checked>
+                        <label for="education">Education</label>
+                        <input type="radio" id="music" name="type" value="music">
+                        <label for="music">Music</label>
+                        <input type="radio" id="charity" name="type" value="charity">
+                        <label for="charity">Charity</label><br>
+                        <input type="radio" id="social" name="type" value="social">
+                    <label for="social">Social</label>
+                    <input type="radio" id="relaxation" name="type" value="relaxation">
+                    <label for="relaxation">Relaxation</label>
+                    <input type="radio" id="cooking" name="type" value="cooking">
+                    <label for="cooking">Cooking</label><br>
+                    <input type="radio" id="recreational" name="type" value="recreational">
+                    <label for="recreational">Recreational</label>
+                    <input type="radio" id="diy" name="type" value="diy">
+                    <label for="diy">DiY</label>
+                    <input type="radio" id="busywork" name="type" value="busywork">
+                    <label for="busywork">Busywork</label>
+                </form>
+                </h3>
+                <div>
+                   <h2>Lorem ipsum dolor sit, amet consectetur adipisicing.</h2><br>
+                   <span>Type of Activity:  </span><span id="act3"></span><span> | No. of Participants:</span><span id="act4"></span>
+                </div>
+                <button>Naahhhh <br> Give new suggestion </button>
+            </div>
+
+            <div class="part">
+                <h3>On the Basis of <br> Number of Participants <br>
+                <input type="number" name="" id="" placeholder="No. of Participants">
+                </h3>
+                <div>
+                   <h2>Lorem ipsum dolor sit, amet consectetur adipisicing.</h2><br>
+                   <span>Type of Activity:  </span><span id="act5"></span><span> | No. of Participants:</span><span id="act6"></span>
+                </div>
+                <button>Naahhhh <br> Give new suggestion </button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <img src="/images/logo more.png" alt="">
+        <button><a href="/form.html" target="_blank">Your Valuable Feedback </a></button>
+        <button><a href="mailto: chehakbatra8@gmail.com?subject = Feedback&body = Message"> Contact Us</a></button>
+        <div>Time</div>
+    </footer>
+
+    <script src="/start.js"></script>
+    <script src="/second.js"></script>
+</body>
+</html>

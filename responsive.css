@@ -1,0 +1,214 @@
+@media only screen and (max-width: 901px)
+{
+
+    footer{
+        height: 90px;
+    }
+  
+    footer img{
+        height: 57px;
+        width: 460px;
+        border-radius: 40px;
+        margin: 5px;
+        margin-right: 20px;
+    }
+
+    footer button{
+        font-size: 10px;
+        width: 500px;
+    }
+
+    footer div{
+        width: 478px;
+        font-size: 10px;
+        margin: 5px;
+        margin-left: 20px;
+    }
+
+    aside{
+        width: 20%;
+        list-style: none;
+    }
+    aside div{
+        margin: 0;
+        font-size: 13px;
+        padding: 15px 0px;
+        text-align: center;
+    }
+    .main{
+        width: 80%;
+    }
+
+    #home{
+        height: 1330px;
+    }
+    .first{
+        flex-direction: column;
+        height: 1000px;
+        width: 90%;
+        margin: 10px 0px;
+    }
+    .hello{
+        width: 90%;
+        height: 840px;
+    }
+    .meme{
+        height: 265px;
+    }
+
+    .meme img{
+        width: 230px;
+        height: 190px;
+    }
+    .second{
+        flex-direction: column;
+        margin: 10px 0px;
+        width: 95%;
+    }
+    .second>img{
+        width: 90%;
+    }
+
+    .text img{
+      width: 100%;
+    }
+    .text{
+        width: 100%;
+    }
+
+    .centered{
+        top: 60%;
+        font-size: 16px;
+    }
+
+    #suggest{
+        margin: 0;
+        padding: 0;
+        height: 1900px;
+    }
+    #suggest h1{
+        font-size: 20px;
+        height: 125px;
+        padding: 5px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .satisfy h4{
+        font-size: 16px;
+        height: 130px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .random,.type,.part{
+        flex-wrap: wrap;
+        height: 500px;
+        align-items: unset;
+        margin: 0;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .part div, .type div, .random div{
+        width: 80%;
+    }
+
+    #suggest button{
+        width: 90%;
+    }
+
+    nav div{
+        width: 200px;
+        font-size: 19px;
+        display: flex;
+        justify-content: center;
+        animation: revolve 5s ease-in 5s infinite alternate forwards;
+    }
+    @keyframes revolve {
+
+        0%{
+            right: -165px;
+        }
+    
+        30%{
+            right: -165px;
+        }
+    
+        90%{
+            right: 10px;
+        }
+    
+        100%{
+            right: 10px;
+        }
+        
+    }
+    nav{
+        text-align: left;
+    }
+
+}
+
+@media only screen and (max-width: 1509px) and (min-width: 901px)
+{
+    footer{
+        height: 150px;
+    }
+  
+    footer img{
+        height: 80px;
+        width: 400px;
+        border-radius: 40px;
+        margin: 5px;
+        margin-right: 20px;
+    }
+
+    footer button{
+        font-size: 20px;
+        width: 500px;
+    }
+
+    footer div{
+        width: 478px;
+        font-size: 15px;
+        margin: 5px;
+        margin-left: 20px;
+    }
+
+    aside{
+        width: 15%;
+        list-style: none;
+    }
+    aside div{
+        margin: 0;
+        font-size: 20px;
+        padding: 15px 0px;
+        text-align: center;
+    }
+    .first{
+        width: 90%;
+    }
+
+    .meme img{
+        width: 300px;
+        height: 250px;
+    }
+    .hello{
+        width: 500px;
+    }
+    .second>img{
+        margin: 0;
+        margin-left: 15px;
+    }
+
+    nav div{
+        font-size: 10px;
+    }
+
+    #suggest{
+        height: 1140px;
+    }
+
+}
