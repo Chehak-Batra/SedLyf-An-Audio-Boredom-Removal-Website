@@ -9,5 +9,5 @@ TechStack Used: HTML, CSS and JavaScript
 Features:
 - Fully Responsive and User Interactive
 - Has an active desktop sightless/audio mode which narrates poems
-- Uses Public API to give activity suggestions(https://www.boredapi.com/api/activity) and poems(https://poetrydb.org/poemcount/500)
+- Uses Public API to give activity suggestions(https://www.boredapi.com/) and poems(https://poetrydb.org/)
 - Well formatted and defined colour scheme
